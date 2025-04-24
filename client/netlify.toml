@@ -1,9 +1,3 @@
-# netlify.toml
-
-[build]
-  publish = "build"  # The folder where your React build files are located
-  command = "npm run build"  # Build command for React app (or yarn build)
-
 [[redirects]]
   # Catch-all redirect for client-side routing (React Router)
   from = "/*"
