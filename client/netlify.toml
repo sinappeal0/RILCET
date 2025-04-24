@@ -1,20 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
 [[redirects]]
-  # Catch-all redirect for client-side routing (React Router)
   from = "/*"
   to = "/index.html"
   status = 200
-  force = true
-
-[[redirects]]
-  # Specific redirect for /admin-login route (Optional)
-  from = "/admin-login"
-  to = "/index.html"
-  status = 200
-  force = true
-
-[[redirects]]
-  # Specific redirect for /admin-panel route (Optional)
-  from = "/admin-panel"
-  to = "/index.html"
-  status = 200
-  force = true
